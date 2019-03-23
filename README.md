@@ -38,5 +38,5 @@
               before training, you must ensure your lmdb file path and labelmap filepath is right in your train and test prototxt ,maybe  occurrs this error: (lmdb)file not found
               
        Be careful：
-              In my model, my net was created by VGG16, but i use deep compression(2016 best paper in cvpr) to Prune, so my net model weights just 2MB, and VGG16 99MB, resnet101 490MB. 
+              In my model, my net was created by VGG16, but i use deep compression(2016 best paper in cvpr:  https://arxiv.org/abs/1510.00149) to Prune, so my net model weights just 2MB, and VGG16 99MB, resnet101 490MB. 
             
