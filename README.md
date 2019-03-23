@@ -2,16 +2,19 @@
   Updated a minute ago used ssd by caffe in transportation object detection , included car bus minbus persopn minibus bicycle.
   In this model, i use the caffe prototxt to create a ssd net,this net can classifier 7 label,included car bus minibus persion bicycle dangerouscar .
   
-  Requirements:
-        ubunto: 16.04
-        cuda:   9.0 and newer
-        cudann: 7.0 and newer
-        caffe:  caffe_ssd code  by weiliu
-        python: 2.7
-        opencv: 2.4.13  you also can use the opencv3 to train/test model， but because i used openCV2 developed, so in this project, i made some tools to eval dataset and other convenient tools, if you want use my tools,i really recommend; use opencv2 in my project.
+Requirements:
+  ubunto: 16.04
+  cuda:   9.0 and newer
+  cudann: 7.0 and newer      
+  caffe:  caffe_ssd code  by weiliu     
+  python: 2.7     
+  opencv: 2.4.13  you also can use the opencv3 to train/test model， but because i used openCV2 developed, so in this project, i made some tools to eval dataset and other convenient tools, if you want use my tools,i really recommend; use opencv2 in my project.     
+        
+        
              
    
   train and test:
+  
       first:
             you must ensure caffe_ssd code should be compiled in your ubunto, just like this:           
               git clone https://github.com/weiliu89/caffe.git caffe-ssd 
