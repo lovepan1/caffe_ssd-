@@ -3,6 +3,7 @@
   In this model, i use the caffe prototxt to create a ssd net,this net can classifier 7 label,included car bus minibus persion bicycle dangerouscar .
   
 Requirements:
+
   ubunto: 16.04
   cuda:   9.0 and newer
   cudann: 7.0 and newer      
@@ -11,8 +12,6 @@ Requirements:
   opencv: 2.4.13  you also can use the opencv3 to train/test model， but because i used openCV2 developed, so in this project, i made some tools to eval dataset and other convenient tools, if you want use my tools,i really recommend; use opencv2 in my project.     
         
         
-             
-   
   train and test:
   
       first:
