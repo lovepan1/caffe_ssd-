@@ -2,7 +2,7 @@ use the caffe_ssd by weiLiu:
 
     1: cd caffe_ssd/
     
-    2: create lmdb data:    sh create.sh   your_data_path     (first ,ensure flist1.py put in tools)
+    2: create lmdb data:    sh create.sh   your_data_path     (first ,ensure flistPcl.py put in tools)
     
     3: train or test 
     
