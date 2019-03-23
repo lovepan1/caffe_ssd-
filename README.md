@@ -1,5 +1,5 @@
 # caffe_ssd in traffic
-  Updated a minute ago used ssd by caffe in transportation object detection , included car bus minbus persopn minibus bicycle.
+ Used ssd by caffe in transportation object detection , included car bus minbus persopn minibus bicycle.
   In this model, i use the caffe prototxt to create a ssd net,this net can classifier 7 label,included car bus minibus persion bicycle dangerouscar .
   
 Requirements:
